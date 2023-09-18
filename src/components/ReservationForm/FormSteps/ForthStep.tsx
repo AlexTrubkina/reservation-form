@@ -1,9 +1,5 @@
 import { Flex, Button, Image, Text } from "@chakra-ui/react";
 import Checked from "../../../assets/checked.png";
-import {
-    StepFirstObjDataType,
-    StepSecondObjDataType,
-} from "../../../types/types";
 import { Dispatch, SetStateAction } from "react";
 
 const ForthStep = ({
@@ -15,7 +11,7 @@ const ForthStep = ({
     setFirstData: Dispatch<SetStateAction<any>>;
     setSecondData: Dispatch<SetStateAction<any>>;
 }) => {
-    
+
     const handleRestart = () => {
         setSecondData({
             firstName: "",
