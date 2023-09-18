@@ -6,6 +6,7 @@
 - Typescript
 - React-Router v6
 - Chackra UI
+- Vite
 
 ## Деплой 
 
